@@ -1,0 +1,154 @@
+
+
+body{
+  background-color:whitesmoke;
+}
+.head{
+  background-color: cornsilk;
+text-align: center;
+height: fit-content;
+width: auto;
+overflow: overlay;
+}
+.menu{
+  background-color: antiquewhite;
+text-align: -webkit-center;
+height: auto;
+padding: 1%;
+}
+.a{
+height: -webkit-fill-available;
+background-color: azure;
+padding: 0.8%;
+}
+.logo{
+  width:30%;
+}
+.logoimg{
+  max-width: 100%;
+height: auto;
+}
+
+.logo-content {
+  margin-top: -3.6%; /* The width is 100%, when the viewport is 800px or smaller */
+}
+
+@media screen and (max-width: 850px) {
+  .logo-content {
+    margin-top: -9.5%;
+    /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  .main{
+    margin-bottom: 20px;
+  }
+}
+
+.main{
+width: auto;
+background-color: cornsilk;
+height:100%;
+
+font-family: monospace;
+font-size: large;
+background-color: cornsilk;
+height: -webkit-fill-available;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#8d8f82;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #e40759;
+}
+
+.content-1{
+  text-align: -webkit-center;
+padding: 2%;
+background-color: aliceblue;
+}
+.content-1:hover{
+  background-color:cadetblue;
+}
+
+.content-2{
+  text-align: -webkit-center;
+padding: 2%;
+background-color: antiquewhite;
+}
+.content-2:hover{
+  background-color:peru;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+width:-webkit-fill-available;
+padding: 2%;
+display: inline-block;
+background-color: rgb(223, 240, 223);
+text-align: -webkit-center;
+
+}
+.dropdown:hover{
+  background-color: cadetblue;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+background-color: gainsboro;
+min-width: 100px;
+width: -webkit-fit-content;
+padding: 10px;
+z-index: 1;
+margin-left: 45%;
+text-align: center;
+
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.content-3{
+  text-align: -webkit-center;
+padding: 2%;
+background-color:beige;
+}
+.content-3:hover{
+  background-color:peru;
+}
+.content-4{
+  text-align: -webkit-center;
+padding: 2%;
+background-color:rgb(237, 237, 237);;
+}
+.content-4:hover{
+  background-color:peru;
+}
+.content-5{
+  padding: 2%;
+text-align: -webkit-center;
+background-color: antiquewhite;
+}
+.footer1 {
+   text-align: center;
+   padding: 0.5%;
+}
